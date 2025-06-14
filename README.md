@@ -18,11 +18,16 @@ GhostTerminal is a terminal-style interface that:
 
 ## 🚀 Features
 
-- 🎬 Typing triggers realistic-looking code lines from a customizable `snippets.txt`
-- 🖥️ Terminal-like UI with blinking cursor, glowing text, and matrix-style background
 - 🧠 Boot-up sequence to simulate system initialization
-- 🎨 Modern CSS styling, scroll-less terminal, and CRT-style glow
-- 📝 Easily extendable via an external text file (`snippets.txt`)
+- ⌨️ Typing triggers cinematic multi-line code snippets
+- 🧾 Inline snippet definitions — no more dependency on `snippets.txt`
+- 🧱 Snippet grouping for authentic block-based outputs
+- 🔍 Fake command-line parsing (`help`, `ls`, `nmap`, `clear`, etc.)
+- 🧪 Typing fallback: any gibberish triggers code output
+- 🖥️ Terminal UI with glowing green-on-black theme and blinking cursor
+- 🧵 No snippet repetition until all blocks are used
+- 🎨 Matrix-style animated background with CRT-style glow
+- ⚡ Auto-scroll on every new output
 
 ---
 
@@ -33,7 +38,6 @@ ghostterminal/
 ├── index.html # Main HTML file
 ├── style.css # Terminal theme and effects
 ├── script.js # Handles typing logic and boot-up sequence
-├── snippets.txt # Customizable code snippet lines
 └── readme.md # Project documentation (you're reading it!)
 ```
 
@@ -75,10 +79,10 @@ ghostterminal/
 
 ## 🔮 Future Enhancements
 - 🎧 Typing sound effects
-- 🧠 Auto-demo mode (auto-types code every few seconds)
+- 🧠 Idle/auto-demo mode (auto-types code every few seconds)
 - 🧪 Command-line parsing with basic fake commands (ls, cd, nmap)
 - 🌗 Light/dark themes with toggle
-- 🧾 Block-based multi-line snippets (grouped entries)
+- ⏳ Loading indicators or fake network delays
 
 ## 🤝 Contributing
 Contributions are welcome! Feel free to:
@@ -92,4 +96,4 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 
 ## 📬 Contact
 Open an issue for feedback, feature requests, or collaboration ideas.
-GhostTerminal is a small creative experiment built to bring a bit of cinematic hacker energy to your screen. Make it yours.
+GhostTerminal is a small creative experiment built to bring a bit of cinematic hacker energy to your screen. Make it yours. Live fast. Type fake.
