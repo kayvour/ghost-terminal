@@ -27,11 +27,10 @@ GhostTerminal is a terminal-style interface that:
 - 🧱 Snippet grouping for authentic block-based outputs
 - 🖥️ Terminal UI with glowing green-on-black theme and blinking cursor
 - 🧵 Smart snippet rotation to avoid repetition
-- 🖥️ Terminal UI with glowing green-on-black theme and blinking cursor
 - 🎨 Matrix-style animated background with CRT-style glow
 - ⚡ Auto-scroll with performance optimization
 
-**Enhanced COmmand System**
+**Enhanced Command System**
 - 🔍 Real terminal commands: help, ls, ps, whoami, pwd, cat, nmap, netstat, clear, exit
 - ⬆️ Command history: Use arrow keys (↑/↓) to navigate previous commands
 - 🎯 Smart command detection: Type commands anywhere for instant execution
@@ -67,7 +66,7 @@ ghostterminal/
    cd ghostterminal
 
 2. **Preview locally:**
-   Just open index.html in your browser. No backend needed.
+   Simply open index.html in your browser. No backend needed.
 
 3. **Customize (optional):**
    - Edit the codeSnippets array in script.js to add your own code blocks
@@ -76,7 +75,7 @@ ghostterminal/
 
 ---
 
-## 💡How to Use
+## 💡 How to Use
 **Desktop Experience**
 - Type anywhere on the page to generate code output
 - Use arrow keys (↑/↓) to navigate command history
