@@ -12,22 +12,38 @@ GhostTerminal is a terminal-style interface that:
 
 - Mimics the look and feel of a green-on-black hacker terminal
 - Reacts to every keypress by displaying randomized, code-like output
+- Features real terminal commands with history navigation
 - Gives off that *movie hacking scene* vibe for fun, portfolio, or aesthetic
+- Works seamlessly on both desktop and mobile devices
 
 ---
 
 ## 🚀 Features
 
+**Core Terminal Experience**
 - 🧠 Boot-up sequence to simulate system initialization
 - ⌨️ Typing triggers cinematic multi-line code snippets
-- 🧾 Inline snippet definitions — no more dependency on `snippets.txt`
+- 🧾 Inline snippet definitions
 - 🧱 Snippet grouping for authentic block-based outputs
-- 🔍 Fake command-line parsing (`help`, `ls`, `nmap`, `clear`, etc.)
-- 🧪 Typing fallback: any gibberish triggers code output
 - 🖥️ Terminal UI with glowing green-on-black theme and blinking cursor
-- 🧵 No snippet repetition until all blocks are used
+- 🧵 Smart snippet rotation to avoid repetition
+- 🖥️ Terminal UI with glowing green-on-black theme and blinking cursor
 - 🎨 Matrix-style animated background with CRT-style glow
-- ⚡ Auto-scroll on every new output
+- ⚡ Auto-scroll with performance optimization
+
+**Enhanced COmmand System**
+- 🔍 Real terminal commands: help, ls, ps, whoami, pwd, cat, nmap, netstat, clear, exit
+- ⬆️ Command history: Use arrow keys (↑/↓) to navigate previous commands
+- 🎯 Smart command detection: Type commands anywhere for instant execution
+- 💬 Command feedback: See exactly what commands you're running
+- 🔧 Error handling: Proper "command not found" messages
+
+**Mobile & Performance**
+- 📱 Full mobile support: Touch-friendly controls and responsive design
+- 🎛️ Mobile control bar: Quick access to common commands on touch devices
+- 👆 Tap-to-code: Special mobile overlay for generating code snippets
+- ⚡ Performance optimized: Automatic cleanup prevents memory bloat (500 line limit)
+- 🚀 Smooth scrolling: Uses RequestAnimationFrame for 60fps performance
 
 ---
 
@@ -50,39 +66,45 @@ ghostterminal/
    git clone https://github.com/yourusername/ghostterminal.git
    cd ghostterminal
 
-2. **Customize snippet output:**
-   Open snippets.txt in any text editor.
-   Each line is treated as one terminal output line.
-
-   Example:
-   ```
-     function connectToServer(ip) {
-    const socket = new WebSocket(ip);
-   }
-   sudo rm -rf /
-   encryptPayload(payload);
-
-3. **Preview locally:**
+2. **Preview locally:**
    Just open index.html in your browser. No backend needed.
+
+3. **Customize (optional):**
+   - Edit the codeSnippets array in script.js to add your own code blocks
+   - Modify commands object to add new terminal commands
+   - Adjust MAX_LINES constant to change performance limits
 
 ---
 
 ## 💡How to Use
-- Start typing anywhere on the page.
-- Watch randomized, hacker-style output stream in real time.
-- Add new lines to snippets.txt to customize your experience.
+**Desktop Experience**
+- Type anywhere on the page to generate code output
+- Use arrow keys (↑/↓) to navigate command history
+- Type commands like help, ls, nmap for specific outputs
+- Press Enter to execute the current command
+- Use Backspace to edit your input
 
-- Use for:
--- Developer portfolios
--- Interactive Easter eggs
--- Screensaver-style ambient experiences
+**Mobile Experience**
+- Tap the control buttons at the bottom for quick commands
+- Tap "type code" to open the code generation overlay
+- Tap the overlay to generate random code snippets
+- Fully responsive design adapts to your screen size
+
+## 🎯 Use Cases
+- Developer portfolios: Add interactive terminal sections
+- Landing pages: Create engaging "hacker" themed content
+- Presentations: Live coding simulation without real code
+- Easter eggs: Hidden terminal interfaces in web apps
+- Screensavers: Ambient coding atmosphere
+- Education: Demonstrate terminal concepts safely
 
 ## 🔮 Future Enhancements
 - 🎧 Typing sound effects
 - 🧠 Idle/auto-demo mode (auto-types code every few seconds)
-- 🧪 Command-line parsing with basic fake commands (ls, cd, nmap)
 - 🌗 Light/dark themes with toggle
 - ⏳ Loading indicators or fake network delays
+- 🎮 Interactive mode: Mini-games within the terminal
+- 🎨 Customization UI: Visual theme and command editor
 
 ## 🤝 Contributing
 Contributions are welcome! Feel free to:
