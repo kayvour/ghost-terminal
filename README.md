@@ -2,6 +2,8 @@
 
 A lightweight, movie-style "hacker terminal" web app built with HTML, CSS, and JavaScript. Type anything and watch cinematic code snippets stream to the screen in real time — like you’re hacking into the mainframe.
 
+![image](https://github.com/user-attachments/assets/1e1bcf32-e230-4ff0-a251-fcb00863b43b)
+
 🌐 [Live Demo](https://kayvour.github.io/ghost-terminal/)  
 
 ---
@@ -88,6 +90,12 @@ ghostterminal/
 - Tap "type code" to open the code generation overlay
 - Tap the overlay to generate random code snippets
 - Fully responsive design adapts to your screen size
+
+## 🧰 Tech Stack
+- 🖥️ HTML5 for markup
+- 🎨 CSS3 for styling and glowing terminal effects
+- ⚙️ JavaScript (Vanilla ES6) for interactivity and command logic
+- 💡 No libraries or frameworks — just clean frontend code
 
 ## 🎯 Use Cases
 - Developer portfolios: Add interactive terminal sections
